@@ -34,12 +34,3 @@ class KicktraqItem(scrapy.Item):
         input_processor=MapCompose(filter_rn),
         output_processor=Join(),
     )
-
-    '''
-    backers = scrapy.Field()
-    raised = scrapy.Field()
-    goal = scrapy.Field()
-    avg_daily_funding = scrapy.Field()
-    start = scrapy.Field()
-    end = scrapy.Field()
-    '''
